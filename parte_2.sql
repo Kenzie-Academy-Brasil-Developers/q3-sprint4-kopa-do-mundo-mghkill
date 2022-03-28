@@ -66,15 +66,6 @@ SET
 WHERE
 	selecao = 'Espanha'
 
-UPDATE
-	kopas 
-SET
-	qnt_copas  = 4
-WHERE
-	selecao = 'Alemanha';
-	
-delete from kopas where selecao = 'Japão' returning *;
-
 select  * FROM kopas;
 
 CREATE TABLE IF NOT EXISTS estadios (

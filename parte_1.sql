@@ -16,3 +16,12 @@ VALUES
 	('Inglaterra' ,1),
 	('Espanha', 1),
 	('Japão', 1);
+
+UPDATE
+	kopas 
+SET
+	qnt_copas  = 4
+WHERE
+	selecao = 'Alemanha';
+	
+delete from kopas where selecao = 'Japão' returning *;
